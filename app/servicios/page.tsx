@@ -30,7 +30,7 @@ const services = [
   {
     title: "Sesiones Familiares",
     desc: "Momentos únicos con tu familia en los colores y texturas del Caribe colombiano.",
-    img: "/images/familia-cartagena.jfif",
+    img: "/images/Fotografia familiar en cartagena.jpg",
     alt: "Fotografía familiar en Cartagena de Indias Colombia",
     href: "/servicios/familias-cartagena",
     keyword: "Familias",

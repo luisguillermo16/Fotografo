@@ -43,9 +43,9 @@ const ALL_ITEMS: PortfolioItem[] = [
     href: "/portafolio/bodas",
   },
   {
-    src: "/images/familia-cartagena.jfif",
+    src: "/images/Fotografia familiar en cartagena.jpg",
     alt: "Sesión familiar en Cartagena Colombia",
-    height: 260,
+    height: 380,
     title: "Familias en el Caribe",
     cat: "family",
     catLabel: "Familia",
@@ -154,6 +154,19 @@ export default function PortfolioGrid({ initialFilter = "all", items }: Props) {
             className={`cat-btn ${active === f.key ? "active" : ""}`}
             onClick={() => setActive(f.key)}
             aria-pressed={active === f.key}
+            style={{
+              backgroundColor: active === f.key ? "var(--terracotta)" : "transparent",
+              color: active === f.key ? "white" : "var(--mid)",
+              padding: "8px 20px",
+              borderRadius: "40px",
+              border: active === f.key ? "none" : "1px solid var(--light-line)",
+              cursor: "pointer",
+              transition: "all 0.3s ease",
+              textTransform: "uppercase",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              fontFamily: "var(--font-body)",
+            }}
           >
             {f.label}
           </button>

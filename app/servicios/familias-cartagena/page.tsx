@@ -35,7 +35,7 @@ export default function FamiliasPage() {
     <ServicePageTemplate
       eyebrow="Familias · Cartagena"
       h1="Momentos familiares eternizados"
-      heroImg="/images/familia-cartagena.jfif"
+      heroImg="/images/Fotografia familiar en cartagena.jpg"
       heroAlt="Sesión fotográfica familiar en Cartagena Colombia"
       intro="Las familias crecen y cambian. Estas fotos serán el tesoro que tus hijos mirarán décadas después."
       body={[
@@ -44,7 +44,7 @@ export default function FamiliasPage() {
         "Recomiendo agendar la sesión durante la hora dorada (antes del amanecer o durante el atardecer) para aprovechar la mejor luz natural de Cartagena.",
       ]}
       gallery={[
-        { src: "/images/familia-cartagena.jfif", alt: "Fotografía familiar profesional en Cartagena Colombia", h: 320 },
+        { src: "/images/Fotografia familiar en cartagena.jpg", alt: "Fotografía familiar profesional en Cartagena Colombia", h: 320 },
         { src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80", alt: "Familia en playa de Cartagena sesión fotográfica", h: 280 },
         { src: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&q=80", alt: "Familia colombiana en sesión de fotos Cartagena", h: 360 },
         { src: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600&q=80", alt: "Retrato familiar en Ciudad Amurallada Cartagena", h: 240 },

@@ -31,7 +31,7 @@ const services = [
   {
     title: "Familias",
     label: "Sesiones Familiares",
-    img: "/images/familia-cartagena.jfif",
+    img: "/images/Fotografia familiar en cartagena.jpg",
     alt: "Fotografía familiar en Cartagena Colombia",
     href: "/servicios/familias-cartagena",
   },

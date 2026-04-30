@@ -239,7 +239,7 @@ export default function Nav() {
       <style>{`
         @media (max-width: 900px) {
           .hamburger { display: flex !important; }
-          .nav-social { display: none !important; }
+          .nav-social, .nav-links { display: none !important; }
         }
       `}</style>
     </>
