@@ -145,6 +145,8 @@ export default function PortfolioGrid({ initialFilter = "all", items }: Props) {
   const filtered =
     active === "all" ? data : data.filter((i) => i.cat === active);
 
+  console.log("Active Category:", active);
+
   return (
     <>
       <nav className="cat-filter" aria-label="Filtrar portafolio por categoría">
