@@ -1,0 +1,14 @@
+- [x] Initial project setup (Next.js, Tailwind, TypeScript)
+- [x] Implement global design system (globals.css, typography, colors)
+- [x] Create core components (Nav, Footer, ScrollReveal, PortfolioGrid, PriceCards, ContactForm)
+- [x] Build SEO-optimized Home page
+- [x] Build About page
+- [x] Create Services hub and individual service pages (6 total)
+- [x] Create Portfolio hub and per-category galleries (5 total)
+- [x] Build Prices and packages page
+- [x] Build Blog section (Index + 3 complete articles)
+- [x] Create Contact page with integrated form
+- [x] Implement API route for contact form submission
+- [x] Global SEO: Metadata, JSON-LD Schemas, Sitemap, Robots.txt
+- [x] Fix image dimension/position warnings and CSS import issues
+- [x] Final site verification and walkthrough
